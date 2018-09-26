@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28016.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{7A7434B7-5505-4960-AABA-4A5F1322353D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddSession.Tests", "TddSession.Tests\TddSession.Tests.csproj", "{7A7434B7-5505-4960-AABA-4A5F1322353D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddSession.Models", "TddSession.Models\TddSession.Models.csproj", "{DE53341B-71B6-4CB1-B701-0A2901942BBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7A7434B7-5505-4960-AABA-4A5F1322353D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7434B7-5505-4960-AABA-4A5F1322353D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7434B7-5505-4960-AABA-4A5F1322353D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE53341B-71B6-4CB1-B701-0A2901942BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE53341B-71B6-4CB1-B701-0A2901942BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE53341B-71B6-4CB1-B701-0A2901942BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE53341B-71B6-4CB1-B701-0A2901942BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
